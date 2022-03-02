@@ -1,0 +1,140 @@
+body{
+    background: #ffccf7;
+    font-family: sans-serif;
+}
+
+#title{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(248, 42, 42);
+}
+
+form{
+    width: 50%;
+    background: white;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
+}
+
+form input{
+    border-radius: 25px;
+    border: 1px solid red;
+}
+
+
+.fieldset{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.fieldset legend{
+    font-weight: bold;
+    color: red;
+}
+
+.container1{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    text-align: left;
+}
+
+.container2{
+    margin-right: 5px;
+    padding: 1px;
+}
+
+.container2 label, input{
+    margin-left: 2px;
+}
+
+.container2 input{
+    width: 20%;
+}
+
+#email{
+    width: 60%;
+}
+
+#number{
+    width: 60%;
+}
+
+.container3{
+    text-align: left;
+    width: 75%;
+    margin-left: auto;
+}
+
+.container3 input{
+    margin-bottom: 10px;
+}
+
+.container3 label[for="rating"]{
+    position: relative;
+    right: auto;
+}
+
+#age{
+    width: 50%;
+}
+
+#height, #weight{
+    width: 17%;
+}
+
+#rating{
+    width: 50%;
+}
+
+.check-label{
+    color: red;
+}
+
+.container5{
+    text-align: left;
+    width: 75%;
+    margin-left: 30%;
+}
+
+.container5 input{
+    margin-bottom: 10px;
+}
+
+#color{
+    border: none;
+}
+
+#education{
+    width: 60%;
+}
+
+#resume{
+    border: 1px solid black;
+}
+
+#submit{
+    border: 3px solid #ffccf7;
+    width: 125px;
+    height: 50px;
+    background: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#submit:hover{
+    background: #ffccf7;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}

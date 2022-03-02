@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicholas Walker">
+    <meta name="description" content="Girlfriend application for Nicholas Walker">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Girlfriend Application</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Application To Be My Valentine</h1>
+    </header>
+    <main>
+        <div id="survey-form">
+           <form>
+            <i class="fa fa-heart" style="color: red; font-size: 40px;"></i>
+              <fieldset class="fieldset personal-info">
+                <legend>Personal Info</legend>
+                  <div class="container container1">
+                    <label for="name">First Name <span style="margin-left: 100px;">Last Name</span></label><br><Br>
+                    <input type="text" id="name">
+                    <input type="text" id="name"><br><br>
+                    <label for="email">Email</label><br><br>
+                    <input type="email" id="email"><br><br>
+                    <label for="number">Phone Number</label><br><br>
+                    <input type="tel" id="number">
+                  </div>
+              </fieldset>
+              <fieldset class="fieldset socials">
+                <legend>Socials</legend>
+                  <div class="container container2">
+                    <label for="snapchat">Snapchat:</label>
+                    <input type="text" id="snapchat">
+                    <label for="instagram">Instagram:</label>
+                    <input type="text" id="instagram">
+                    <label for="tiktok">Tiktok:</label>
+                    <input type="text" id="tiktok">
+                  </div>
+              </fieldset>
+              <fieldset class="fieldset build">
+                <legend>Build</legend>
+                  <div class="container container3">
+                    <label for="age">Date Of Birth</label><br><br>
+                    <input type="date" id="age"><br><br>
+                    <label for="height">Height:</label>
+                    <input type="number" id="height">
+                    <label for="weight">Weight:</label>
+                    <input type="number" id="weight"><br><br>
+                    <label for="rating">Rate Your Looks</label><br><br>
+                    <input type="range" id="rating" min="0" max="10">
+                  </div>
+              </fieldset>
+              <fieldset class="fieldset personality">
+                <legend>Personality</legend>
+                  <div class="container container4">
+                    <label for="love">Love Language:</label>
+                    <select id="love">
+                        <option value="touch">Touch</option>
+                        <option value="quality-time">Quality Time</option>
+                        <option value="affirmations">Affirmations</option>
+                        <option value="gifts">Gifts</option>
+                        <option value="acts-of-service">Acts Of Service</option>
+                    </select>
+                    <p>Favourite Music Genre?</p>
+                    <label for="hiphop" class="check-label">HipHop</label>
+                    <input type="radio" id="hiphop" name="music" value="hiphop"><br>
+                    <label for="pop" class="check-label">Pop</label>
+                    <input type="radio" id="pop" name="music" value="pop"><br>
+                    <label for="rnb" class="check-label">R&B</label>
+                    <input type="radio" id="rnb" name="music" value="rnb"><br>
+                    <label for="country" class="check-label">Country</label>
+                    <input type="radio" id="country" name="music" value="country"><br><br>
+                    <p>What best describes you?</p>
+                    <label for="cheerful" class="check-label">Cheerful</label>
+                    <input type="checkbox" id="cheerful" name="trait"  value="cheerful"><br>
+                    <label for="outgoing" class="check-label">Outgoing</label>
+                    <input type="checkbox" id="outgoing" name="trait" value="outgoing"><br>
+                    <label for="introvert" class="check-label">Introverted</label>
+                    <input type="checkbox" id="introvert" name="trait" value="introvert"><br>
+                    <label for="bipolar" class="check-label">Bipolar</label>
+                    <input type="checkbox" id="bipolar" name="trait" value="bipolar"><br>
+                    <label for="ambitious" class="check-label">Ambitious</label>
+                    <input type="checkbox" id="ambitious" name="trait" value="ambitious"><br><br>
+                    <label for="fav-thing">What're your hobbies/interests?</label><br><br>
+                    <textarea id="fav-thing" cols="60" rows="12"></textarea>
+                  </div>
+              </fieldset>
+              <fieldset class="fieldset extra">
+                <legend>Extra</legend>
+                  <div class="container container5">
+                    <label for="color">Favourite Color:</label>
+                    <input type="color" id="color"><br><br>
+                    <label for="education">Highest Level of Education</label><br><br>
+                    <input type="text" id="education"><br><br>
+                    <label for="resume">Input Your Resume</label><br><br>
+                    <input type="file" id="resume">
+                  </div>
+              </fieldset>
+              <p style="color: red; font-weight: 600;">THANK YOU FOR FILLING IN THE APPLICATION. USE THE BUTTON TO BELOW TO SUBMIT YOUR FORM AND I WILL TRY TO GET BACK TO YOU AS SOON HAS POSSIBLE</p>
+              <input type="submit" id="submit">
+           </form>
+        </div>
+    </main>
+    <footer>
+        <p>Thank You</p>
+        <hr style="width: 50%; color: white;">
+    </footer>
+</body>
+</html>
